@@ -13,19 +13,15 @@ args = parser.parse_args()
 
 
 def renaming_process(filename):
-    prefix = filename
-    if '.txt' in filename:
-        prefix = filename.split('.')[-2]
-    prefix2 = prefix
-    if '/' in prefix2:
-        prefix2 = prefix2.split('/')[-1]
-    zapis = open('.%s_renamed.txt' % prefix, 'w')
+    prefix = os.path.splitext(filename)[0]
+    description = os.path.basename(prefix)
+    zapis = open('%s_renamed%s' % (prefix, os.path.splitext(filename)[1]), 'w')
     num_lines = sum(1 for line in open(filename))
     with open(filename) as file:
         for i in range(num_lines):
             line = file.readline()
             if '>' in line:
-                newline = re.sub('>', '>%s_' % prefix2, line)
+                newline = re.sub('>', '>%s_' % description, line)
                 zapis.write(newline)
             else:
                 zapis.write(line)
@@ -35,10 +31,9 @@ def renaming_process(filename):
 # ---------------------------------------------------------------------------------------------
 
 if args.F:
-    renaming_process(args.F)
+    renaming_process(os.path.abspath(args.F))
 elif args.R:
-    list_of_files = os.listdir(args.R)
+    list_of_files = os.listdir(os.path.abspath(args.R))
     for i in list_of_files:
-        if 'renamed' not in i:
-            renaming_process('%s/%s' % (args.R, i))
-
+        if 'renamed' not in os.path.basename(i):
+            renaming_process(os.path.abspath('%s/%s' % (args.R, i)))

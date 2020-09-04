@@ -1,12 +1,10 @@
 import argparse
 import os
 
-
 '''
 Filters sequences by their length (number of letters). It helps to filter longer or shorter seq than average but will
 not filter if seq is missing some part but is longer in other while length stays similar to others. 
 '''
-
 
 parser = argparse.ArgumentParser()
 
@@ -16,11 +14,12 @@ parser.add_argument("-R", help='Recursive search')
 
 args = parser.parse_args()
 
-def Iterate(filename):
+
+def iterate_func(filename):
     values = []
     counter = 0
     num_lines = sum(1 for line in open(f'{filename}'))
-    with open(f'{filename}') as file_line:
+    with open(filename) as file_line:
         for i in range(num_lines):
             linia_pliku = file_line.readline()
             if '>' not in linia_pliku:
@@ -38,8 +37,8 @@ def Iterate(filename):
 
     more_less = int(args.A)
 
-    zapis = open(f"{filename.split('.')[0]}_filter.txt", 'w')
-    with open(f'{filename}') as file_line:
+    zapis = open("%s_filter%s" % (os.path.splitext(filename)[0], os.path.splitext(filename)[1]), 'w')
+    with open(filename) as file_line:
         for i in range(num_lines):
             linia_pliku = file_line.readline()
             if '>' in linia_pliku:
@@ -55,14 +54,14 @@ def Iterate(filename):
 
 
 if args.F:
-    Iterate(args.F)
+    iterate_func(os.path.abspath(args.F))
 elif args.R:
-    raw_list = os.listdir(args.R)
+    raw_list = os.listdir(os.path.abspath(args.R))
     new_list = []
     for i in raw_list:
-        if '_filter.txt' not in i:
+        if '_filter' not in os.path.basename(i):
             new_list.append(i)
     for i in new_list:
-        Iterate(f"{args.R}/{i}")
+        iterate_func(os.path.abspath("%s/%s" % (args.R, i)))
 else:
     print('No file/folder!')

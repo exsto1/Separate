@@ -1,14 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="83d53659-532b-4f3d-b5fb-fee659adf21c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/alternative_versions/merge_into_one_file_alt_ver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/alternative_versions/rename_sequences_alt_ver.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/merge_into_one_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rename_sequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Separate.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Separate.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advanced_filter_by_value.py" beforeDir="false" afterPath="$PROJECT_DIR$/advanced_filter_by_value.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.hhm" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhm/all.hhms" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/advfil_hhr/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.hhr" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group1_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group1_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group2_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group2_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group3_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group3_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group4_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group4_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group5_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group5_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group6_2_A_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_advanced_filter_by_value/format/CLANS_run_PF01699_raw_2_1107_group6_2_B_advfil_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_full_seq_extract_n_counts/PF01699_raw_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_full_seq_extract_n_counts/format/PF01699_raw_2_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_Pfam_to_counts/PF01699_full_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_Pfam_to_counts/PF01699_full_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_Pfam_to_counts/format/PF01699_full_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_Pfam_to_counts/format/PF01699_full_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group1_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group1_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group2_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group2_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group3_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group3_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group4_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group4_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group5_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group5_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group6_2_A.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/CLANS_run_PF01699_raw_2_1107_group6_2_B.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group1_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group1_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group2_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group2_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group3_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group3_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group4_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group4_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group5_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group5_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group6_2_A_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/files_from_separate_groups_to_counts/format/CLANS_run_PF01699_raw_2_1107_group6_2_B_f.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group1.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group2.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group3.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group4.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group5.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/groups_from_CLANS/CLANS_run_PF01699_raw_2_1107_group6.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other_files/PF01699_full.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other_files/PF01699_raw.fasta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/other_files/separate_Pfam_to_counts_old.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rename_sequences.py" beforeDir="false" afterPath="$PROJECT_DIR$/rename_sequences.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/separate_groups_to_counts.py" beforeDir="false" afterPath="$PROJECT_DIR$/separate_groups_to_counts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/simple_filter_by_length.py" beforeDir="false" afterPath="$PROJECT_DIR$/simple_filter_by_length.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,12 +136,12 @@
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="195ada2b-5c6e-4bfe-891e-7070c40148e4" />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="27" />
-    <option name="width" value="683" />
-    <option name="height" value="688" />
-  </component>
+  <component name="JupyterTrust" id="b1b99062-9c2c-4886-91b7-8cd38327743d" />
   <component name="ProjectId" id="1OXrSUgtyp1fct0mZClUuRptEsQ" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/alternative_versions" />
@@ -65,18 +172,6 @@
       <recent name="$PROJECT_DIR$/other_files" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
   <component name="RunManager" selected="Python.all_in_one">
     <configuration name="advanced_filter_by_value" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Separate" />
@@ -90,6 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/advanced_filter_by_value.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -111,6 +207,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/all_in_one.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -132,6 +229,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/groups_separate.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -153,6 +251,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/reformat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -174,6 +273,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/separate_Pfam_to_counts.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -200,6 +300,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -210,6 +311,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1562238902793</updated>
+      <workItem from="1599233160275" duration="3474000" />
     </task>
     <task id="LOCAL-00001" summary="Extract from full_seq raw">
       <created>1562770991036</created>
@@ -331,9 +433,7 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
@@ -352,6 +452,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Extract from full_seq raw" />

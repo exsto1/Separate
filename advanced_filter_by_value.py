@@ -13,8 +13,8 @@ args = parser.parse_args()
 
 
 def iterate(filename, margin, acceptable):
-    num_lines = sum(1 for line in open(f'%s' % filename))
-    with open('%s' % filename) as file_line:
+    num_lines = sum(1 for line in open(filename))
+    with open(filename) as file_line:
         lista_wartosci = []
         for i in range(num_lines):
             linia_pliku = file_line.readline().rstrip()
@@ -34,10 +34,10 @@ def iterate(filename, margin, acceptable):
     for i in range(len(lista_wartosci)):
         lista_wartosci[i] = sum(lista_wartosci[i]) / len(lista_wartosci[i])
 
-    with open('%s' % filename) as file_line:
+    with open(filename) as file_line:
         if '/' in filename:
             filename = filename.split('/')[-1]
-        zapis = open('files_from_advanced_filter_by_value/%s_advfil.fasta' % filename.split('.')[0], 'w')
+        zapis = open('%s_advfil%s' % (os.path.splitext(filename)[0], os.path.splitext(filename)[1]), 'w')
         if args.O:
             print('Filename: %s' % filename)
             print('%4s %5s %30s %s' % ('err', 'line', 'name', 'seq'))
@@ -63,16 +63,16 @@ def iterate(filename, margin, acceptable):
 
 
 if args.F:
-    iterate(args.F, float(args.M), int(args.A))
+    iterate(os.path.abspath(args.F), float(args.M), int(args.A))
 elif args.R:
-    raw_list = os.listdir(args.R)
+    raw_list = os.listdir(os.path.abspath(args.R))
     new_list = []
     for files in raw_list:
-        if '_f.txt' not in files:
-            if '_filter.txt' not in files:
-                if '_advfil.txt' not in files:
+        if '_f' not in files:
+            if '_filter' not in files:
+                if '_advfil' not in files:
                     new_list.append(files)
     for files in new_list:
-        iterate("%s/%s" % (args.R, files), float(args.M), int(args.A))
+        iterate(os.path.abspath("%s/%s" % (args.R, files)), float(args.M), int(args.A))
 else:
     print('No file/folder!')

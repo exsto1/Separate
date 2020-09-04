@@ -15,18 +15,18 @@ parser.add_argument("-N", help='Number of counts', default='2')
 
 args = parser.parse_args()
 
-separate_list_of_files = os.listdir(args.S)
+separate_list_of_files = os.listdir(os.path.abspath(args.S))
 correct_list_with_separate = []
 for i in separate_list_of_files:
-    if f'_{int(args.N)}_' in i:
-        if f'_f.' not in i:
+    if '_%s_' % (int(args.N)) in i:
+        if '_f.' not in i:
             correct_list_with_separate.append(i)
 
 for i0 in range(len(correct_list_with_separate)):
     temp_seq = ''
     filename = correct_list_with_separate[i0]
-    num_lines = sum(1 for line in open(f'{args.S}/{filename}'))
-    with open(f'{args.S}/{filename}') as file_line:
+    num_lines = sum(1 for line in open(os.path.abspath('%s/%s' % (args.S, filename))))
+    with open(os.path.abspath('%s/%s' % (args.S, filename))) as file_line:
         temp_seq = ''
         sequences = []
         names = []
